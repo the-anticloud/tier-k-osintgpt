@@ -1,0 +1,15 @@
+{
+  "benchmark": "Pylint_Quality_Lab_Results",
+  "project": "K_OSINTGPT",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://pylint.readthedocs.io/",
+  "results": {
+    "framework": "Pylint \u2014 Python Code Quality Analyzer",
+    "source": "https://pylint.readthedocs.io/",
+    "files_analyzed": 5,
+    "pylint_score": 8.52,
+    "pylint_score_max": 10.0,
+    "status": "PASS",
+    "raw_output": "************* Module wizard\nTIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\wizard.py:22:0: C0301: Line too long (115/100) (line-too-long)\nTIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\wizard.py:1:0: C0114: Missing module docstring (missing-module-docstring)\nTIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\wizard.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)\n************* Module maigret.activation\nTIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\activation.py:1:0: C0114: Missing module docstring (missing-module-docstring)\nTIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\activation.py:3:0: R0402: Use 'from os import path' instead (consider-using-from-import)\nTIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\activation.py:14:0: C0115: Missing class docstring (missing-class-docstring)\nTIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\activation.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)\nTIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\activation.py:16:4: W0102: Dangerous default value {} as argument (dangerous-default-value)\nTIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\activation.py:16:36: W0613: Unused argument 'cookies' (unused-argument)\nTIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\activation.py:32:4: C0116: Missing function or method docstring (missing-function-docstring)\nTIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\activation.py:32:4: W0102: Dangerous default value {} as argument (dangerous-default-value)\nTIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\activation.py:32:34: W0613: Unused argument 'cookies' (unused-argument)\nTIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\activation.py:48:4: C0116: Missing function or method docstring (missing-function-docstring)\nTIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\activation.py:48:0: W0613: Unused argument 'kwargs' (unused-argument)\nTIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\activation.py:72:4: C0116: Missing function or method docstring (missing-f"
+  }
+}

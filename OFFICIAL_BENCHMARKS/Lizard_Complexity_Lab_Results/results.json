@@ -1,0 +1,14 @@
+{
+  "benchmark": "Lizard_Complexity_Lab_Results",
+  "project": "K_OSINTGPT",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/terryyin/lizard",
+  "results": {
+    "framework": "Lizard \u2014 Multi-Language Complexity Analyzer",
+    "source": "https://github.com/terryyin/lizard",
+    "total_functions": null,
+    "avg_cyclomatic_complexity": null,
+    "status": "SKIP",
+    "raw_output": "================================================\n  NLOC    CCN   token  PARAM  length  location  \n------------------------------------------------\n       7      1     41      3      12 __init__@50-61@E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\web\\app.py\n       3      1     34      2       3 set_total@63-65@E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\web\\app.py\n       2      1     12      2       2 set_sites@67-68@E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\web\\app.py\n      32     10    198      3      32 update@70-101@E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\web\\app.py\n       2      1     14      3       2 start@104-105@E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\web\\app.py\n       2      1     10      2       2 finish@107-108@E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTR"
+  }
+}

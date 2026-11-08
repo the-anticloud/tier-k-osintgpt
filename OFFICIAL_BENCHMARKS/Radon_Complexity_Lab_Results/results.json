@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "K_OSINTGPT",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "B",
+      "score": 5.881481481481481
+    },
+    "complexity_grade": "B",
+    "complexity_score": 5.881481481481481,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\wizard.py\n    F 11:0 main - A (5)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\activation.py\n    F 253:0 save_activation_cache - B (7)\n    M 72:4 ParsingActivator.onlyfans - B (7)\n    F 219:0 load_activation_cache - B (6)\n    M 48:4 ParsingActivator.wikimapia - B (6)\n    C 14:0 ParsingActivator - A (5)\n    M 131:4 ParsingActivator.proton - A (5)\n    M 158:4 ParsingActivator.weibo - A (4)\n    F 187:0 import_aiohttp_cookies - A (3)\n    F 215:0 _activation_sites - A (3)\n    M 16:4 ParsingActivator.twitter - A (1)\n    M 32:4 ParsingActivator.vimeo - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\ai.py\n    F 108:0 _stream_response - B (8)\n    F 97:0 _check_response - A (4)\n    F 34:0 _frames_for - A (3)\n    F 84:0 print_streaming - A (3)\n    F 136:0 get_ai_analysis - A (3)\n    F 23:0 resolve_api_key - A (2)\n    C 51:0 _Spinner - A (2)\n    M 67:4 _Spinner._spin - A (2)\n    M 76:4 _Spinner.stop - A (2)\n    F 15:0 load_ai_prompt - A (1)\n    M 57:4 _Spinner.__init__ - A (1)\n    M 63:4 _Spinner.start - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\checking.py\n    F 1754:0 run_url_mutations - F (46)\n    F 1454:0 site_self_check - E (38)\n    F 750:0 process_site_result - E (35)\n    M 223:4 SimpleAiohttpChecker._make_request - E (33)\n    F 921:0 make_site_result - D (26)\n    M 612:4 CloudflareWebga",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\wizard.py - A (55.03)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\activation.py - A (52.75)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\ai.py - A (56.22)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\checking.py - C (0.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\K_OSINTGPT\\UPSTREAM\\maigret\\db_update"
+  }
+}
